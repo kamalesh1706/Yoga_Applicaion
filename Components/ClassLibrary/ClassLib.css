@@ -1,0 +1,51 @@
+.class-library {
+    padding: 20px;
+    background-color: #F2EAD3;
+    padding-left: 5%;
+    margin-bottom: -351px;
+  }
+  
+  .class-library-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-left: 46%;
+  }
+  
+  .class-library-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .class-card {
+    background-color: #DFD7BF;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .class-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .class-card p {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 5px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #9e6e52;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #9e6e52;
+  }
+  

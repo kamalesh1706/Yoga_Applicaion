@@ -1,0 +1,32 @@
+.home-page-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .home-page-container h1 {
+    margin-bottom: 20px;
+  }
+  
+  .feature-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .feature-card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .feature-card h2 {
+    margin-bottom: 10px;
+  }
+  
+  .feature-card p {
+    line-height: 1.5;
+  }
+  

@@ -1,0 +1,35 @@
+.video-player {
+    position: relative;
+    width: 100%;
+  }
+  
+  .video-player video {
+    width: 100%;
+  }
+  
+  .controls {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 8px;
+    border-radius: 5px;
+  }
+  
+  .controls button {
+    color: rgb(8, 8, 8);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .controls button:focus {
+    outline: none;
+  }
+  
+  .controls button:hover {
+    text-decoration: underline;
+  }
+  

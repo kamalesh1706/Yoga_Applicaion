@@ -1,0 +1,53 @@
+.social-media-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: -243px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .social-media-feed {
+    background-color: #f9f9f9;
+    padding: 10px;
+  }
+  
+  .post {
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .post .user {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .post .content {
+    margin-bottom: 5px;
+  }
+  
+  .post .interactions {
+    font-size: 14px;
+  }
+  
+  .faq-section {
+    margin-top: 20px;
+  }
+  
+  .faq-item {
+    margin-bottom: 15px;
+  }
+  
+  .faq-item .question {
+    font-weight: bold;
+  }
+  
+  .faq-item .answer {
+    margin-top: 5px;
+  }
+  
